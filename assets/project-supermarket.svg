@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Arial, Helvetica, sans-serif">
+  <rect width="800" height="500" fill="#FFB23F"/>
+  <rect x="50" y="50" width="430" height="400" rx="16" fill="#FFF8EC"/>
+  <text x="76" y="88" font-size="18" font-weight="700" fill="#171717">Revenue by day</text>
+  <text x="76" y="108" font-size="11" fill="#7A6A52">1,000+ transactions across 3 branches</text>
+  <line x1="76" y1="390" x2="454" y2="390" stroke="#171717" stroke-width="1.5"/>
+  <line x1="76" y1="330" x2="454" y2="330" stroke="#EADBC2"/>
+  <line x1="76" y1="270" x2="454" y2="270" stroke="#EADBC2"/>
+  <line x1="76" y1="210" x2="454" y2="210" stroke="#EADBC2"/>
+  <line x1="76" y1="150" x2="454" y2="150" stroke="#EADBC2"/>
+  <rect x="88" y="262" width="34" height="128" rx="4" fill="#171717" opacity=".22"/>
+  <rect x="140" y="250" width="34" height="140" rx="4" fill="#171717" opacity=".22"/>
+  <rect x="192" y="244" width="34" height="146" rx="4" fill="#171717" opacity=".22"/>
+  <rect x="244" y="270" width="34" height="120" rx="4" fill="#171717" opacity=".22"/>
+  <rect x="296" y="240" width="34" height="150" rx="4" fill="#171717" opacity=".22"/>
+  <rect x="348" y="200" width="34" height="190" rx="4" fill="#171717"/>
+  <rect x="400" y="236" width="34" height="154" rx="4" fill="#171717" opacity=".22"/>
+  <text x="105" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Mon</text>
+  <text x="157" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Tue</text>
+  <text x="209" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Wed</text>
+  <text x="261" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Thu</text>
+  <text x="313" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Fri</text>
+  <text x="365" y="410" font-size="10.5" fill="#171717" text-anchor="middle" font-weight="700">Sat</text>
+  <text x="417" y="410" font-size="10.5" fill="#7A6A52" text-anchor="middle">Sun</text>
+  <rect x="318" y="166" width="94" height="24" rx="12" fill="#171717"/>
+  <text x="365" y="182" font-size="10.5" fill="#FFB23F" text-anchor="middle" font-weight="700">peak day</text>
+  <rect x="500" y="50" width="250" height="190" rx="16" fill="#171717"/>
+  <text x="522" y="84" font-size="14" font-weight="700" fill="#fff">Busiest hour</text>
+  <polyline points="522,200 542,190 562,194 582,180 602,186 622,170 642,176 662,160 682,118 702,150 722,168" fill="none" stroke="#FFB23F" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+  <line x1="682" y1="118" x2="682" y2="210" stroke="#FFB23F" stroke-dasharray="3 4" opacity=".6"/>
+  <circle cx="682" cy="118" r="6" fill="#FFB23F" stroke="#171717" stroke-width="2"/>
+  <text x="682" y="104" font-size="12" font-weight="700" fill="#fff" text-anchor="middle">19:00</text>
+  <text x="522" y="226" font-size="9.5" fill="#8A867E">10:00</text>
+  <text x="722" y="226" font-size="9.5" fill="#8A867E" text-anchor="end">21:00</text>
+  <rect x="500" y="260" width="250" height="190" rx="16" fill="#FFF8EC"/>
+  <text x="522" y="294" font-size="14" font-weight="700" fill="#171717">Food &amp; beverages</text>
+  <text x="522" y="312" font-size="10.5" fill="#7A6A52">spend by customer gender</text>
+  <rect x="522" y="334" width="190" height="26" rx="6" fill="#171717"/>
+  <rect x="522" y="370" width="132" height="26" rx="6" fill="#171717" opacity=".22"/>
+  <text x="530" y="351" font-size="10.5" fill="#fff">Female</text>
+  <text x="530" y="387" font-size="10.5" fill="#171717">Male</text>
+  <text x="522" y="432" font-size="26" font-weight="700" fill="#171717">+44%</text>
+  <text x="596" y="430" font-size="10.5" fill="#7A6A52">higher female spend</text>
+</svg>

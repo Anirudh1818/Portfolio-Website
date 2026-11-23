@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anirudh Saxena — Full-Stack &amp; AI Developer</title>
+  <meta name="description" content="Anirudh Saxena, B.Tech CSE (AI) student at Shoolini University. Won HacXLerate 2026, co-founded Web Brothers Digital. Builds with Next.js, TypeScript, Firebase and AI APIs.">
+  <meta name="author" content="Anirudh Saxena">
+  <meta property="og:title" content="Anirudh Saxena — Full-Stack & AI Developer">
+  <meta property="og:description" content="Projects, honours and contact for Anirudh Saxena, full-stack & AI developer from Moradabad, India.">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/anirudh-avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header dark" id="header">
+    <div class="wrap header-inner">
+      <a href="#top" class="logo">Anirudh<span>.</span></a>
+
+      <nav class="nav" id="nav" aria-label="Main">
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-right">
+        <span class="clock"><span class="live-dot"></span>Moradabad <b class="ist">--:--</b> IST</span>
+        <a href="mailto:saxenaanirudh59@gmail.com" class="mail-btn"><span class="long">saxenaanirudh59@gmail.com</span><span class="short">Email me</span></a>
+        <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero" id="hero">
+      <img src="assets/anirudh-full.jpg" alt="Anirudh standing by a lake at night" class="hero-photo" id="hero-photo" width="1280" height="960">
+      <div class="hero-shade"></div>
+
+      <div class="wrap hero-inner">
+        <h1 class="hero-title">
+          <span class="hero-intro"><span class="wave">👋</span>, my name is Anirudh and I'm a</span>
+          <span class="big" id="big">
+            <span class="line">Full-Stack</span>
+            <span class="line outline">&amp; AI</span>
+            <span class="line outline">Developer</span>
+          </span>
+        </h1>
+
+        <div class="hero-foot">
+          <div class="based">
+            <p class="based-big">based in Moradabad, India.</p>
+            <p class="based-small">B.Tech CSE (AI) at Shoolini University</p>
+            <p class="avail"><span class="live-dot"></span>Open to internships &amp; freelance work</p>
+            <div class="hero-cta">
+              <a href="#contact" class="btn btn-white" data-purpose="Internship">You're hiring an intern</a>
+              <a href="#contact" class="btn btn-ghost" data-purpose="Web project">You need a website</a>
+            </div>
+          </div>
+
+          <ul class="creds" aria-label="Highlights">
+            <li><b class="c1">HacXLerate'26</b><small>1st place</small></li>
+            <li><b class="c2">ByteXL</b><small>Round 2 finalist</small></li>
+            <li><b class="c3">Shoolini</b><small>CSE (AI)</small></li>
+            <li><b class="c4">Web Brothers</b><small>co-founder</small></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="work wrap" id="work">
+      <div class="work-head">
+        <div>
+          <h2 class="big-title">Selected work<sup>(4)</sup></h2>
+          <p class="lede">Hackathon builds, client work and the coursework I'm actually proud of.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="chip active" data-filter="all" aria-pressed="true">All</button>
+          <button class="chip" data-filter="fullstack" aria-pressed="false">Full-stack &amp; AI</button>
+          <button class="chip" data-filter="client" aria-pressed="false">Client work</button>
+          <button class="chip" data-filter="data" aria-pressed="false">Data &amp; systems</button>
+        </div>
+      </div>
+
+      <div class="projects" id="projects">
+
+        <article class="project" data-cat="fullstack">
+          <button class="project-img" data-open="krealink" aria-label="Open KreaLink case study">
+            <img src="assets/project-krealink.svg" alt="KreaLink brand dashboard with matched creators and escrow status" loading="lazy">
+            <span class="badge badge-gold">1st place, HacXLerate 2026</span>
+            <span class="peek">Open</span>
+          </button>
+          <div class="project-text">
+            <div class="project-top">
+              <h3>KreaLink</h3>
+              <span>2026</span>
+            </div>
+            <p class="project-sub">AI-creator marketplace with escrow payments</p>
+            <p class="project-desc">Brands post a brief, creators get matched and ranked, and the money sits in escrow till the work is approved. I was the main dev on Team Tech Mafias (44 of 47 commits): the portals, Razorpay payments checked on the server, and 600+ lines of Firestore rules.</p>
+            <ul class="tags">
+              <li>Next.js 16</li><li>React 19</li><li>TypeScript</li><li>Firebase</li><li>Razorpay</li><li>Gemini API</li>
+            </ul>
+            <button class="text-btn" data-open="krealink">Read the case study</button>
+          </div>
+        </article>
+
+        <article class="project" data-cat="client fullstack">
+          <button class="project-img" data-open="webbrothers" aria-label="Open Web Brothers Digital case study">
+            <img src="assets/project-webbrothers.svg" alt="Web Brothers Digital site with enquiry form sending to WhatsApp and email" loading="lazy">
+            <span class="badge">Co-founder</span>
+            <span class="peek">Open</span>
+          </button>
+          <div class="project-text">
+            <div class="project-top">
+              <h3>Web Brothers Digital</h3>
+              <span>May 2026 – now</span>
+            </div>
+            <p class="project-sub">Studio site and lead funnel for our web agency</p>
+            <p class="project-desc">I co-founded Web Brothers Digital to build websites for local businesses. Our own site runs on Next.js Server Actions: the enquiry form is validated on the server, the client gets an email through Resend, and the lead jumps straight to WhatsApp.</p>
+            <ul class="tags">
+              <li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li><li>Server Actions</li><li>Resend API</li>
+            </ul>
+            <button class="text-btn" data-open="webbrothers">Read the case study</button>
+          </div>
+        </article>
+
+        <article class="project" data-cat="data">
+          <button class="project-img" data-open="supermarket" aria-label="Open Supermarket Sales Analysis case study">
+            <img src="assets/project-supermarket.svg" alt="Charts showing Saturday as peak revenue day and 19:00 as busiest hour" loading="lazy">
+            <span class="badge">1,000+ transactions</span>
+            <span class="peek">Open</span>
+          </button>
+          <div class="project-text">
+            <div class="project-top">
+              <h3>Supermarket Sales Analysis</h3>
+              <span>Nov 2026</span>
+            </div>
+            <p class="project-sub">Exploratory data analysis in Python</p>
+            <p class="project-desc">Answered 16 business questions across 3 branches with Pandas groupby and pivot tables. Saturday brings in the most revenue, 19:00 is the busiest hour, and women spend 44% more on food &amp; beverages.</p>
+            <ul class="tags">
+              <li>Python</li><li>Pandas</li><li>Matplotlib</li><li>Seaborn</li><li>Jupyter</li>
+            </ul>
+            <button class="text-btn" data-open="supermarket">Read the case study</button>
+          </div>
+        </article>
+
+        <article class="project" data-cat="data">
+          <button class="project-img" data-open="calculator" aria-label="Open Scientific Calculator case study">
+            <img src="assets/project-calculator.svg" alt="C calculator running in a terminal next to its web simulator" loading="lazy">
+            <span class="badge">C + web simulator</span>
+            <span class="peek">Open</span>
+          </button>
+          <div class="project-text">
+            <div class="project-top">
+              <h3>Scientific Calculator in C</h3>
+              <span>Nov 2026</span>
+            </div>
+            <p class="project-sub">Menu-driven calculator with a browser twin</p>
+            <p class="project-desc">A switch-case calculator in C that refuses to break: it catches division by zero, logs of zero or negatives and square roots of negatives. Then I rebuilt the same flow in the browser so you can watch every step.</p>
+            <ul class="tags">
+              <li>C (GCC)</li><li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <button class="text-btn" data-open="calculator">Read the case study</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="wrap about-inner">
+        <div class="about-text">
+          <h2 class="big-title">About me</h2>
+          <p class="about-lede">I'm a first-year CSE (AI) student who'd rather ship something real than sit on a tutorial.</p>
+          <p>I'm from Moradabad and I study at Shoolini University in Solan. Most of what I build sits where clean, minimal design meets backend stuff people don't see, like security rules, payment checks and data that can't be tampered with.</p>
+          <p>This year I led KreaLink to 1st place at HacXLerate and took it to ByteXL's national round in Hyderabad, and I started Web Brothers Digital to build sites for businesses back home.</p>
+
+          <div class="facts">
+            <div>
+              <h3>Education</h3>
+              <p>B.Tech, Computer Science &amp; Engineering (AI)<br>Shoolini University, Solan, Himachal Pradesh<br><span class="dim">2026 – 2030, first semester</span></p>
+            </div>
+            <div>
+              <h3>Hometown</h3>
+              <p>Moradabad, Uttar Pradesh<br><span class="dim">Happy to work remote</span></p>
+            </div>
+          </div>
+        </div>
+
+        <figure class="about-pic">
+          <img src="assets/anirudh-portrait.png" alt="Anirudh Saxena" width="576" height="720" loading="lazy">
+        </figure>
+
+        <aside class="honours" aria-labelledby="honours-title">
+          <h3 id="honours-title">Honours</h3>
+          <ul>
+            <li>
+              <span class="h-what">1st place</span>
+              <span class="h-where">HacXLerate 2026, Shoolini University, with Team Tech Mafias</span>
+            </li>
+            <li>
+              <span class="h-what">Finalist</span>
+              <span class="h-where">ByteXL national Round 2, Hyderabad, October 2026</span>
+            </li>
+            <li>
+              <span class="h-what">Co-founder</span>
+              <span class="h-where">Web Brothers Digital, Moradabad, since May 2026</span>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section class="skills wrap" id="skills">
+      <h2 class="big-title">What I work with</h2>
+
+      <p class="stack-text">
+        Most days I'm in <span class="t">TypeScript</span> and <span class="t">Next.js</span> with <span class="t">React</span>, styling with <span class="t">Tailwind</span> or plain <span class="t">HTML &amp; CSS</span>.
+        On the backend it's <span class="t">Firebase</span> — Auth, Firestore and the <span class="t">security rules</span> that keep it locked down — plus <span class="t">Node.js</span> route handlers, <span class="t">Server Actions</span>, <span class="t">REST APIs</span> and <span class="t">Razorpay</span> payments.
+        For AI and data I use the <span class="t">Gemini</span> and <span class="t">OpenAI</span> APIs, <span class="t">Python</span> with <span class="t">Pandas</span>, and <span class="t">Matplotlib</span> / <span class="t">Seaborn</span> in <span class="t">Jupyter</span>.
+        <span class="t">C</span> is where I practise logic, I test with the <span class="t">Firebase Emulator</span> and <span class="t">node:test</span>, and everything ships through <span class="t">Git</span>, <span class="t">GitHub</span> and <span class="t">Vercel</span>.
+      </p>
+
+      <div class="skill-cols">
+        <div>
+          <h3>Frontend</h3>
+          <ul>
+            <li>TypeScript, JavaScript (ES6+)</li>
+            <li>React, Next.js App Router</li>
+            <li>HTML, CSS, Tailwind CSS</li>
+            <li>UI design</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Backend &amp; security</h3>
+          <ul>
+            <li>Firebase Auth, Firestore, Storage</li>
+            <li>Firestore security rules</li>
+            <li>Node.js, Server Actions, REST</li>
+            <li>Razorpay, HMAC-SHA256 checks</li>
+          </ul>
+        </div>
+        <div>
+          <h3>AI, data &amp; tools</h3>
+          <ul>
+            <li>Gemini &amp; OpenAI APIs</li>
+            <li>Python, Pandas, Seaborn</li>
+            <li>C (GCC)</li>
+            <li>Git, GitHub, Vercel</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2 class="contact-title">Let's talk</h2>
+
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="me">
+              <img src="assets/anirudh-avatar.jpg" alt="" width="64" height="64">
+              <p>Hiring an intern, need a website, or want to build something with AI? Send me a message, I usually reply within a day.</p>
+            </div>
+
+            <dl class="details">
+              <div>
+                <dt>Email</dt>
+                <dd class="email-row">
+                  <a href="mailto:saxenaanirudh59@gmail.com">saxenaanirudh59@gmail.com</a>
+                  <button class="copy" id="copy-email" type="button">Copy</button>
+                </dd>
+              </div>
+              <div>
+                <dt>Phone</dt>
+                <dd><a href="tel:+919412142364">+91 94121 42364</a></dd>
+              </div>
+              <div>
+                <dt>Based in</dt>
+                <dd>Moradabad, Uttar Pradesh, India</dd>
+              </div>
+              <div>
+                <dt>University</dt>
+                <dd>Shoolini University, Solan, HP</dd>
+              </div>
+            </dl>
+
+            <ul class="socials">
+              <li><a href="https://github.com/Anirudh1818" target="_blank" rel="noopener"><span>GitHub</span><span class="handle">@Anirudh1818</span></a></li>
+              <li><a href="https://www.linkedin.com/in/anirudh-saxena-b3b7a7276" target="_blank" rel="noopener"><span>LinkedIn</span><span class="handle">anirudh-saxena</span></a></li>
+              <li><a href="https://www.instagram.com/canvasofcode_mind" target="_blank" rel="noopener"><span>Instagram</span><span class="handle">@canvasofcode_mind</span></a></li>
+            </ul>
+          </div>
+
+          <form class="form" id="form" action="https://formsubmit.co/saxenaanirudh59@gmail.com" method="POST" novalidate>
+            <input type="hidden" name="_subject" value="New message from your portfolio">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+
+            <div class="notice" id="notice" role="status" aria-live="polite"></div>
+
+            <div class="row-2">
+              <div class="field" id="f-name">
+                <label for="name">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Rahul Sharma" autocomplete="name" required>
+                <span class="err" id="e-name"></span>
+              </div>
+              <div class="field" id="f-email">
+                <label for="email">Your email</label>
+                <input type="email" id="email" name="email" placeholder="rahul@company.com" autocomplete="email" required>
+                <span class="err" id="e-email"></span>
+              </div>
+            </div>
+
+            <fieldset class="field">
+              <legend>What's it about?</legend>
+              <div class="pills">
+                <label><input type="radio" name="purpose" value="Internship" checked><span>Internship</span></label>
+                <label><input type="radio" name="purpose" value="Web project"><span>Web project</span></label>
+                <label><input type="radio" name="purpose" value="AI collaboration"><span>AI collab</span></label>
+                <label><input type="radio" name="purpose" value="Just saying hi"><span>Just saying hi</span></label>
+              </div>
+            </fieldset>
+
+            <div class="field">
+              <label for="subject">Subject <span class="opt">(optional)</span></label>
+              <input type="text" id="subject" name="subject" placeholder="Summer internship, frontend team">
+            </div>
+
+            <div class="field" id="f-msg">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me a bit about the role or the project" required></textarea>
+              <span class="err" id="e-msg"></span>
+            </div>
+
+            <button type="submit" class="btn btn-dark send" id="send">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-col">
+          <h4>Pages</h4>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Elsewhere</h4>
+          <a href="https://github.com/Anirudh1818" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/anirudh-saxena-b3b7a7276" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/canvasofcode_mind" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <div class="footer-col">
+          <h4>Say hi</h4>
+          <a href="mailto:saxenaanirudh59@gmail.com">saxenaanirudh59@gmail.com</a>
+          <a href="tel:+919412142364">+91 94121 42364</a>
+          <p class="footer-time">It's <b class="ist">--:--</b> in Moradabad</p>
+        </div>
+      </div>
+
+      <p class="footer-name" aria-hidden="true">Anirudh Saxena</p>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Anirudh Saxena</p>
+        <p>Made with plain HTML, CSS &amp; JavaScript</p>
+        <a href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+
+  <dialog class="drawer" id="drawer" aria-labelledby="d-title">
+    <div class="drawer-head">
+      <p class="d-kicker" id="d-kicker"></p>
+      <button class="d-close" id="d-close" aria-label="Close case study">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </button>
+    </div>
+    <div class="drawer-body" id="d-body"></div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
